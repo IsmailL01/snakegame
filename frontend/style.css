@@ -1,0 +1,29 @@
+/* body {
+	overflow-y: hidden;
+} */
+
+canvas {
+	background-color: #000;
+	display: block;
+	margin: 0 auto;
+}
+
+.commands {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.commands_list {
+	display: flex;
+	list-style-type: none;
+	gap: 20px;
+}
+
+.blue_snake {
+	color: blue;
+}
+
+.green_snake {
+	color: green;
+}
